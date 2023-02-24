@@ -58,7 +58,8 @@ async function run(){
             }
         })
 
-        //get api with specific email address
+        //get api with specific email address...........
+        //get api with specific email address...........
         app.get('/blogs/:email', async (req, res)=>{
             const email = req.params.email;
             const filter = {authorEmail: email};
